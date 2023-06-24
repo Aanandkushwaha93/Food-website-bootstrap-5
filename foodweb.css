@@ -1,0 +1,417 @@
+.navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(165 ,42 ,42,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar.navbar-toggler {
+    border-color: blue;
+}
+
+.top-banner {
+    background: url(/01_Foodies_images/images/bg/bg-1.jpg) no-repeat center;
+    background-size: cover;
+    padding: 9.375rem 0 9.375rem;
+}
+
+.navigation-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 11111;
+    box-shadow: 0 0 10px rgba(90, 90, 90, 0.514);
+}
+
+.scroll-on {
+    background: white;
+    transition: all .15s ease-in-out 0s;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    color: brown;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 3rem;
+}
+
+h5 {
+    color: brown;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1rem;
+    color: gray;
+    font-weight: 400;
+    line-height: 1.75rem;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: brown;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.main-btn {
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    line-height: 1.5625rem;
+    background-color: brown;
+    color: white;
+    border: 0.1875rem solid brown;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(90, 90, 90, 0.514);
+}
+
+.white-btn {
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    line-height: 1.5625rem;
+    background-color: white;
+    color: brown;
+    border: 0.1875rem solid rgb(255, 255, 255);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    transition: all .5s ease-in 0;
+    box-shadow: 0 0 10px rgba(90, 90, 90, 0.514);
+
+}
+
+.main-btn:hover {
+    background-color: transparent;
+    border: 0.1875rem solid brown;
+    color: brown;
+    transition: all .2s;
+}
+
+.wrapper {
+    padding-top: 8.25rem;
+    padding-bottom: 8.25rem;
+}
+
+.white-btn:hover {
+    background-color: brown;
+    border: 0.1875rem solid brown;
+    color: white;
+    transition: all .2s;
+}
+
+.navbar-toggler:focus {
+    box-shadow: unset;
+    /* outline: unset; */
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: brown;
+}
+
+.counter-section {
+    background: brown;
+    padding: 2.5rem 0;
+}
+
+.counter-section p {
+    color: white;
+    text-transform: uppercase;
+}
+
+/* ABOUT SECTION  */
+.about-section {
+    background-color: white;
+
+}
+
+.about-section .card,
+.about-section .card img {
+    border-radius: 0.625rem;
+}
+
+.about-section .text-sec {
+    padding-left: 2rem;
+}
+
+/* FOOD TYPE SECTION DESIGN */
+
+.food-type {
+    padding-top: 3.25rem;
+}
+
+.food-type ul li {
+    font-size: 1rem;
+    color: gray;
+    line-height: 32px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.food-type ul li::before {
+    position: absolute;
+    left: -2.1875rem;
+    color: brown;
+    font-size: 1.25rem;
+    font-family: "Font Awesome 5 Free";
+    content: '\f00c';
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.story-section {
+    /* width: 100%; */
+    height: 29.125rem;
+    background: url(/01_Foodies_images/images/bg/bg-2.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.story-section h2 {
+    color: brown;
+}
+
+.explore-food .card {
+    border: none;
+    background-color: transparent;
+    border-radius: 0.9375rem;
+
+}
+
+.explore-food .card img {
+    border-radius: 0.9375rem;
+    object-fit: cover;
+}
+
+.explore-food .card span {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: brown;
+    padding-bottom: 1rem;
+    border-bottom: 0.625rem solid white;
+}
+
+.explore-food .card span del {
+    color: gray;
+    margin-left: 0.5rem;
+}
+
+.testimonial-section {
+    background: brown;
+}
+
+.testimonial-section .carousel-item {
+    margin-top: 3rem;
+    padding: 10rem 3.125rem;
+    background: white;
+    border-radius: 0.9375rem;
+    text-align: center;
+}
+
+.testimonial-section .carousel-item .carousel-caption p {
+    font-size: 1.3125rem;
+    line-height: 2.0625rem;
+    padding: 0 11% 0.625rem;
+}
+
+.testimonial-section .carousel-item .carousel-caption img {
+    max-width: 5rem;
+    border-radius: 50%;
+    padding: 0.3125rem;
+}
+
+.testimonial-section .carousel-indicators button {
+    width: 15px;
+    height: 15px;
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    margin-right: 1rem;
+    opacity: 0.2;
+}
+
+.testimonial-section .carousel-indicators button {
+    width: 15px;
+    height: 15px;
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    margin-right: 0.2rem;
+    opacity: 0.2;
+}
+
+.testimonial-section .carousel-indicators .active {
+    opacity: 1;
+}
+
+.testimonial-section .carousel-indicators {
+    bottom: -2.8125rem;
+}
+
+.faq h4 span {
+    color: brown;
+    font-size: 1.875rem;
+    margin-right: 0.3125rem;
+}
+
+.book-food {
+    width: 100%;
+    background: url(/01_Foodies_images/images/bg/bg-3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 71.9125px;
+    padding: 4.37rem;
+}
+
+.text-content h2 {
+    color: black;
+}
+
+.newsletter {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.newsletter .form-control {
+    height: 3.225rem;
+    padding: 0 1.25rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    border: 0.1875rem solid gray;
+    color: black;
+}
+
+
+.newsletter .form-control:hover,
+.newsletter .form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: brown;
+}
+
+.footer {
+    background: brown;
+}
+
+.footer .footer-link {
+    font-size: 1rem;
+    color: white;
+    padding: 0 1.875rem;
+}
+
+.footer a i {
+    font-size: 1.5rem;
+    color: white;
+    padding: 0 1rem;
+}
+
+.about-section h2 {
+    color: black;
+}
+
+.faq h2 {
+    color: black;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target]{
+    background-color: rewhbeccapurple;
+    background-color: white;
+}
+
+
+
+
+
+
+
+@media (max-width:991px) {
+
+    .navigation-wrap {
+        background: white;
+    }
+
+    .navigation-wrap .navbar-brand img {
+        height: 3.8125rem;
+    }
+
+    .navigation-wrap .nav-link {
+        text-align: center;
+        line-height: 1.875rem;
+    }
+
+    .testimonial-section .carousel-item .carousel-caption p {
+        padding: 0;
+    }
+
+    .newsletter {
+        width: 75%;
+    }
+
+
+}
+
+@media (max-width:767px) {
+    .newsletter .main-btn {
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        line-height: 2.0625rem;
+    }
+
+    .top-banner {
+        padding: 10.875rem 0 9.375rem;
+    }
+
+    .story-section {
+        height: auto;
+    }
+
+    .testimonial-section .carousel-item {
+        padding: 11rem 3.125rem;
+    }
+
+    .footer .footer-link,
+    .footer a i {
+        padding: 0 0.7rem;
+    }
+}
+
+@media (max-width:330px) {
+    .testimonial-section .carousel-item {
+        padding: 13rem 3.125rem;
+    }
+}

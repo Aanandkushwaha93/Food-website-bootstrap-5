@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="foodweb.css">
+</head>
+
+<body>
+    <header class="navigation-wrap">
+        <nav class="navbar navbar-expand-lg  navbar-light bg-transparent  ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="../01_Foodies_images/images/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation" >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#explore-food" class="nav-link">Explore foods</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#faq" tabindex="-1" aria-disabled="true">FAQ</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                        <button class="main-btn" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="container-fluid px-0 top-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6">
+                        <h1>Good food choices are good investments.</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla ab totam quia aliquam nobis
+                            provident et nostrum ratione, natus dolorum id illum ea nemo unde ipsa autem, ducimus
+                            quisquam assumenda, quo distinctio laudantium rerum delectus magni expedita.</p>
+                        <div class="mt-4">
+                            <button class="main-btn">Order now<i class="fas fa-shopping-basket ps-3"></i></button>
+                            <button class="white-btn">Order now<i class="fas fa-angle-right ps-3"></i></button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="counter">
+        <section class="counter-section">
+            <div class="conatainer">
+                <div class="row text-center no-gutters">
+                    <div class="col-md-3 mb-lg-0 mb-5">
+                        <h2><span id="count1"></span>+</h2>
+                        <p>SAVING</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-5">
+                        <h2><span id="count2"></span>+</h2>
+                        <p>PHOTOS</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-5">
+                        <h2><span id="count3"></span>+</h2>
+                        <p>SUCCESS</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-5">
+                        <h2><span id="count4"></span>+</h2>
+                        <p>POWER</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section id="about">
+        <div class="about-section wrapper">
+            <div class="container ">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-12 mb-lg-0 mb-5">
+                        <div class="card border-0">
+                            <img src="/01_Foodies_images/images/img/img-1.png" alt="about" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 ">
+                        <h2>WE Pride Ourselves On Making REal Food From The BEst Ingredients.</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi officiis, minima sapiente
+                            temporibus dolor doloribus. Eum aliquam quam a, dicta debitis aut explicabo, accusamus
+                            dignissimos mollitia minus sequi voluptatibus magnam. </p>
+                        <button class="main-btn mt-4">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container food-type">
+                <div class="row align-items-cnter">
+                    <div class="col-lg-5 col-md-12 text-sec mb-lg-0 mb-5">
+                        <h2>We make everything by hand with the bwest possible Ingredients.</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, explicabo saepe adipisci
+                            harum soluta enim quod alias repudiandae molestiae voluptatum, atque sunt itaque voluptate
+                            sit consequatur iste, incidunt aliquid magnam.</p>
+                        <ul class="list-unstyled py-3">
+                            <li>atque sunt itaque voluptate repudiandae.</li>
+                            <li>Lorem ipsum dolor repudiandae sit amet.</li>
+                            <li>dicta debitis aut explicabo, accusamus.</li>
+                        </ul>
+                        <button class="main-btn mt-4">Learn More</button>
+                    </div>
+                    <div class="col-lg-7 col-md-12">
+                        <div class="card border-0">
+                            <img src="/01_Foodies_images/images/img/img-2.png" alt="about-section 2" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="story">
+        <div class="story-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-content">
+                            <h2>When a man's stonach is full it makes no difference whether he is rich or poor.</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus quo architecto
+                                molestiae placeat. Tenetur, cupiditate quos. Iste eveniet ratione iusto vel, error
+                                facilis sit ut consequuntur hic quia aut in.</p>
+                            <button class="main-btn  mt-3">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="explore-food">
+        <div class="explore-food wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-content text-center">
+                            <h2>Explore Our Foods</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis necessitatibus eos
+                                facilis animi quae excepturi ut ipsam suscipit quam quisquam! Itaque, dolor. Doloremque
+                                ea, totam dolores fugiat dignissimos excepturi recusandae!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                        <div class="card">
+                            <img src="/01_Foodies_images/images/img/img-3.jpg" alt="img-3" class="img-fluid">
+                            <div class="pt-3">
+                                <h4>Rainbow Vegetable Sandwich</h4>
+                                <p>Time: 15-20 Minutes | Serves: 1</p>
+                                <span>$10.50 <del>$11.70</del></span>
+                                <button class="mt-4 main-btn">
+                                    Order Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                        <div class="card">
+                            <img src="/01_Foodies_images/images/img/img-4.jpg" alt="img-3" class="img-fluid">
+                            <div class="pt-3">
+                                <h4>Rainbow Vegetable Sandwich</h4>
+                                <p>Time: 15-20 Minutes | Serves: 1</p>
+                                <span>$10.50 <del>$11.70</del></span>
+                                <button class="mt-4 main-btn">
+                                    Order Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+                        <div class="card">
+                            <img src="/01_Foodies_images/images/img/img-5.jpg" alt="img-3" class="img-fluid">
+                            <div class="pt-3">
+                                <h4>Rainbow Vegetable Sandwich</h4>
+                                <p>Time: 15-20 Minutes | Serves: 1</p>
+                                <span>$10.50 <del>$11.70</del></span>
+                                <button class="mt-4 main-btn">
+                                    Order Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial">
+        <div class="wrapper testimonial-section">
+            <div class="container text-center">
+                <div class="text-center pb-4">
+                    <h2>Testimonial</h2>
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-10 offset-lg-1">
+                            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="10000">
+                                        <div class="carousel-caption ">
+                                            <img src="/01_Foodies_images/images/review/review-1.jpg" class=" w-100"
+                                                alt="/01_Foodies_images/images/review/review-1.jpg">
+                                            <p>“Don't settle for average. Bring your best to the moment. Then, whether
+                                                it fails or succeeds, at least you know you gave all you had.” </p>
+                                            <h5>Angela Bassett</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <div class="carousel-caption ">
+                                            <img src="/01_Foodies_images/images/review/review-2.jpg" class=" w-100"
+                                                alt="/01_Foodies_images/images/review/review-1.jpg">
+                                            <p>“The only way of discovering the limits of the possible is to venture a
+                                                little way past them into the impossible.”</p>
+                                            <h5>Arthur C. Clarke</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="carousel-caption ">
+                                            <img src="/01_Foodies_images/images/review/review-1.jpg" class=" w-100"
+                                                alt="/01_Foodies_images/images/review/review-1.jpg">
+                                            <p>“If you believe something needs to exist, if it's something you want to
+                                                use yourself, don't let anyone ever stop you from doing it.”</p>
+                                            <h5>Johnthan Doe - UX Designer</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq" id="faq">
+        <div class="faq wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-center pb-4">
+                            <h2>Frequanty Asked Qoustions</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-sm-6 mb-4">
+                        <h4><span>~</span> Is Foodies Bread rally backed fresh each day ?</h4>
+                        <p>Lorem ipsum, dolor stetur, aliquam laborum consequatur quae architecto velit id qui dolores
+                            magnam impedit fuga error eligendi?</p>
+                    </div>
+                    <div class="col-sm-6 mb-4">
+                        <h4><span>~</span> Is Foodies Bread rally backed fresh each day ?</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus unde quod recusandae sunt
+                            quaerat fugit c eligendi?</p>
+                    </div>
+                    <div class="col-sm-6 mb-4">
+                        <h4><span>~</span> Is Foodies Bread rally backed fresh each day ?</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus unde quod recusandae sunt
+                            quaerat fugit fuga error eligendi?</p>
+                    </div>
+                    <div class="col-sm-6 mb-4">
+                        <h4><span>~</span> Is Foodies Bread rally backed fresh each day ?</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus unde quod recusandae sunt
+                            quaerat fuit fuga error eligendi?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section" id="book-food">
+        <div class="book-food">
+            <div class="container book-food-text">
+                <div class="row text-center">
+                    <div class="col-lg-9 col-md-12">
+                        <h2>
+                            Baked fresh by backers with passion.
+                        </h2>
+                    </div>
+                    <div class="col-lg-3 col-md-12 mt-lg-0 mt-4">
+                        <botton class="main-btn">
+                            Learn More
+                        </botton>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="newsletter">
+        <div class="newsletter wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-content text-center pb-4">
+                            <h2>Hurry up! Subscribe our newsletter and get 25% Off</h2>
+                            <p>Limmited time offer for this month. No credit card required. </p>
+
+                        </div>
+                        <form class="newsletter">
+                            <div class="row">
+                                <div class="col-md-8 col-12">
+                                    <input type="email" class="form-control" placeholder="Email Address Here"
+                                        type="email">
+                                </div>
+                                <div class="col-md-4">
+                                    <button class="main-btn">Subscribe</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <foooter id="footer">
+        <div class="footer py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <a href="#" class="footer-link">Register</a>
+                        <a href="#" class="footer-link">Forum</a>
+                        <a href="#" class="footer-link">Affiliate</a>
+                        <a href="#" class="footer-link">FAQ</a>
+                        <div class="foooter-social pt-4 text-center">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"> <i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"> <i class="fa-brands fa-youtube"></i></a>
+                            <a href="#"> <i class="fa-brands fa-dribbble"></i></a>
+                            <a href="#"> <i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="footer-copy">
+                            <div class="copy-right text-center pt-5">
+                                <p class="text-light"><i class="fa-sharp fa-solid fa-copyright"></i> 2023. Foodies. All rights
+    reserved. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </foooter>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="foodweb.js"></script>
+</body>
+
+</html>
